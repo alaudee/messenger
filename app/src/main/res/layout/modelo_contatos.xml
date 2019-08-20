@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listaContatos">
+
+        <ImageButton
+            android:id="@+id/imagemContato"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/borda_fotos"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:id="@+id/nomeContato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monteiro Lobato"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/imagemContato"
+            />
+
+        <TextView
+            android:id="@+id/descircaoContato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descricao_monteiro"
+            android:layout_toRightOf="@id/imagemContato"
+            android:layout_below="@id/nomeContato"
+            android:layout_marginLeft="20dp"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
