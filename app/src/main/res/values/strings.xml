@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Messenger</string>
     <string name="descricao_monteiro">Escritor famoso que criou o sítio do pica pau amarelo</string>
+    <string name="descricao_carlos">Empenhado em aprender coisas novas</string>
+    <string name="descricao_rodrigo">Empenhado em aprender coisas novas</string>
+    <string name="descricao_carla">Empenhado em aprender coisas novas</string>
+    <string name="descricao_claudio">Empenhado em aprender coisas novas</string>
+    <string name="descricao_fernanada">Empenhado em aprender coisas novas</string>
+    <string name="descricao_renata">Empenhado em aprender coisas novas</string>
 </resources>
